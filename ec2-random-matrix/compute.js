@@ -59,3 +59,7 @@ const computation = async () => {
         }),
     };
 };
+
+module.exports = {
+	computation
+}
