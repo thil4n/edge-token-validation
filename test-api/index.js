@@ -13,7 +13,7 @@ app.use((req, res, next) => {
     Body: ${JSON.stringify(body)}
   `;
 
-  console.log(logMessage);
+  console.log(req);
   next();
 });
 
