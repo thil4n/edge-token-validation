@@ -4,11 +4,9 @@
 package org.example;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
+
+    public static void main(String[] args) throws InterruptedException {
+        new EchoServer(8080).start();
     }
 
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
-    }
 }
