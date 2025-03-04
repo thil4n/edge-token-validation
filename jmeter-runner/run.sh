@@ -1,3 +1,10 @@
+java -jar app.jar \
+ --consumer-key DSniYQenMoVD3p2fXawfaYXnsAQa \
+ --tokens-count 10 \
+ --output-file tokens.csv \
+ --key-store-file wso2carbon.jks
+
+
 jmeter -n -t apim-test.jmx \
   -l results.jtl \
   -Jusers=5 \
