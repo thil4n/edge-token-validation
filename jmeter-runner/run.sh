@@ -1,4 +1,4 @@
-java -jar app.jar \
+java -jar jwt-generator.jar \
  --consumer-key DSniYQenMoVD3p2fXawfaYXnsAQa \
  --tokens-count 10 \
  --output-file tokens.csv \
@@ -17,3 +17,6 @@ jmeter -n -t apim-test.jmx \
   -Jprotocol=https \
   -Jpath=/api/v1/test \
   -Jresponse_size=200
+
+
+python analyze.py
