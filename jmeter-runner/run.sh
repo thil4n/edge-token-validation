@@ -1,6 +1,6 @@
 jmeter -n -t apim-test.jmx \
   -l results.jtl \
-  -Jusers=100 \
+  -Jusers=5 \
   -JrampUpPeriod=60 \
   -Jduration=300 \
   -Jtokens=tokens.csv \
