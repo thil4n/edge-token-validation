@@ -5,11 +5,13 @@ java -jar jwt-generator.jar \
  --key-store-file wso2carbon.jks
 
 
+#https://ec2-13-50-85-120.eu-north-1.compute.amazonaws.com:8243/netty/1/secured
 #https://ec2-13-50-85-120.eu-north-1.compute.amazonaws.com:8243/netty/1/unsecured
+#http://ec2-13-48-178-58.eu-north-1.compute.amazonaws.com:8080/
 
 jmeter -n -t apim-test.jmx \
   -l results.jtl \
-  -Jusers=5 \
+  -Jusers=100 \
   -JrampUpPeriod=60 \
   -Jduration=300 \
   -Jtokens=tokens.csv \
@@ -17,7 +19,7 @@ jmeter -n -t apim-test.jmx \
   -Jhost=ec2-13-50-85-120.eu-north-1.compute.amazonaws.com \
   -Jport=8243 \
   -Jprotocol=https \
-  -Jpath=/netty/1/secured \
+  -Jpath=/netty/1/unsecured \
   -Jresponse_size=200
 
 
