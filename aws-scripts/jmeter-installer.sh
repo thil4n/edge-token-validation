@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo apt update
+sudo apt install -y openjdk-11-jre
+sudo apt install -y jmeter
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAG4dTpUi1sni9/l81v72g6LrzSB935QzXYUlQVd5H9ty0kgNAr7rWnuDf4k13pIQO6l2NIPhepRYIsglnm4Inw6mWyKymY6FccYhO2vkpK8zp1VVpRpDHHIrwyYo4qqugeYOdyxW6zORKtCmtOeWzm7kurvtC4HBeSvnK6OOSGPrbtIbr18cMxtizv3pf5sTT8rNAnIOP8hLN4RQS/h37sWo3Qxvl929GozYlJT7bmsGFnUxADd33VUgE4uM7mBe82KnguE4zDOvf28P1Eg2QrQu2M+uRNPB11YgiFKrITHtJwDMSdWujpaVcugmBjBm07YLIJw1SX5OX+XJCa6y9" >> ~/.ssh/authorized_keys
