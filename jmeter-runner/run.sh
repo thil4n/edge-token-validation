@@ -21,27 +21,29 @@ declare -a target_paths=("/netty/1/unsecured" "/netty/1/secured" "/")
 # Loop through each target
 for target_host in "${!target_hosts[@]}"; do
 
-echo "--------------------------------------"
+  # Extract the host and path for the current target
   host=${target_hosts[$target_host]}
   path=${target_paths[$target_host]}
   echo "Running test for $host$path"
 
+  rm -f results.jtl;
 
+  jmeter -n -t apim-test.jmx \
+    -l "results.jtl" \
+    -Jusers=1 \
+    -JrampUpPeriod=2 \
+    -Jduration=10 \
+    -Jtokens=tokens.csv \
+    -Jpayload=payload.json \
+    -Jhost=$host \
+    -Jport=443 \
+    -Jprotocol=https \
+    -Jpath=$path \
+    -Jresponse_size=200 \
+    > /dev/null 2>&1
 
-  # jmeter -n -t apim-test.jmx \
-  #   -l "results-${host//./_}.jtl" \
-  #   -Jusers=1 \
-  #   -JrampUpPeriod=2 \
-  #   -Jduration=10 \
-  #   -Jtokens=tokens.csv \
-  #   -Jpayload=payload.json \
-  #   -Jhost=$host \
-  #   -Jport=443 \
-  #   -Jprotocol=https \
-  #   -Jpath=$path \
-  #   -Jresponse_size=200
-
-  # echo "Analyzing results for $host"
-  # python3 analyze.py "results-${host//./_}.jtl"
-  # echo "--------------------------------------"
+  echo " Analyzing results for $host"
+  python3 analyze.py "results.jtl"
+  rm -f results.jtl;
+  echo "--------------------------------------"
 done
