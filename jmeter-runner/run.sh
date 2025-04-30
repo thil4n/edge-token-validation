@@ -1,8 +1,5 @@
 #!/bin/bash
 
-
-./key-gen.sh
-
 # APIM https://haxtreme.info/netty/1/unsecured
 # APIM https://haxtreme.info/netty/1/secured
 # CFW  https://twilight-butterfly-76d6.cloudflare-rnd-eng.workers.dev
@@ -25,9 +22,9 @@ for target_host in "${!target_hosts[@]}"; do
 
   jmeter -n -t apim-test.jmx \
     -l "results.jtl" \
-    -Jusers=1 \
-    -JrampUpPeriod=2 \
-    -Jduration=10 \
+    -Jusers=100 \
+    -JrampUpPeriod=10 \
+    -Jduration=100 \
     -Jtokens=tokens.csv \
     -Jpayload=payload.json \
     -Jhost=$host \
