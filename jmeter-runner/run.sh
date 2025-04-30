@@ -1,12 +1,7 @@
-# java -jar jwt-generator.jar \
-#  --consumer-key DSniYQenMoVD3p2fXawfaYXnsAQa \
-#  --tokens-count 100 \
-#  --output-file tokens.csv \
-#  --key-store-file wso2carbon.jks
-
-
 #!/bin/bash
 
+
+./key-gen.sh
 
 # APIM https://haxtreme.info/netty/1/unsecured
 # APIM https://haxtreme.info/netty/1/secured

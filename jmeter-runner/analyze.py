@@ -1,11 +1,16 @@
 import pandas as pd
 
 # Load the CSV file
-df = pd.read_csv("results.jtl",low_memory=False)
+df = pd.read_csv("results.jtl", low_memory=False)
 
-# Calculate average response time
+# Calculate metrics
 average_time = df['elapsed'].mean()
 min_time = df['elapsed'].min()
 max_time = df['elapsed'].max()
+percentile_99 = df['elapsed'].quantile(0.99)
 
-print(f" Average Response Time: {average_time} ms \n Min Response Time: {min_time} ms \n Max Response Time: {max_time} ms")
+# Display results
+print(f"Average Response Time: {average_time:.2f} ms")
+print(f"Min Response Time: {min_time} ms")
+print(f"Max Response Time: {max_time} ms")
+print(f"99th Percentile Response Time: {percentile_99:.2f} ms")

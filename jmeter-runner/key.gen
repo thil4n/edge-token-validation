@@ -1,1 +1,0 @@
- java -jar jwt-generator.jar --consumer-key 2YHF9qnsHekqWLdyvW2lBLEJYeka --key-store-file wso2carbon.jks --tokens-count 100 --output-file tokens.csv
