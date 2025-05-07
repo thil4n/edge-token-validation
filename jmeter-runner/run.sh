@@ -20,9 +20,9 @@ for target_host in "${!target_hosts[@]}"; do
 
   rm -f results.jtl;
 
-  jmeter -n -t apim-test.jmx \
+  ./apache-jmeter-5.5/bin/jmeter.sh -n -t apim-test.jmx \
     -l "results.jtl" \
-    -Jusers=100 \
+    -Jusers=10 \
     -JrampUpPeriod=10 \
     -Jduration=100 \
     -Jtokens=tokens.csv \
@@ -33,6 +33,7 @@ for target_host in "${!target_hosts[@]}"; do
     -Jpath=$path \
     -Jresponse_size=200 \
     > /dev/null 2>&1
+
 
   echo " Analyzing results for $host"
   python3 analyze.py "results.jtl"

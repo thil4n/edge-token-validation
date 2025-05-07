@@ -1,379 +1,111 @@
-2025-04-30 12:17:05,694 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2025-04-30 12:17:05,705 INFO o.a.j.JMeter: Loading user properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/user.properties
-2025-04-30 12:17:05,706 INFO o.a.j.JMeter: Loading system properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/system.properties
-2025-04-30 12:17:05,706 INFO o.a.j.JMeter: Setting JMeter property: users=100
-2025-04-30 12:17:05,706 INFO o.a.j.JMeter: Setting JMeter property: rampUpPeriod=10
-2025-04-30 12:17:05,706 INFO o.a.j.JMeter: Setting JMeter property: duration=100
-2025-04-30 12:17:05,706 INFO o.a.j.JMeter: Setting JMeter property: tokens=tokens.csv
-2025-04-30 12:17:05,706 INFO o.a.j.JMeter: Setting JMeter property: payload=payload.json
-2025-04-30 12:17:05,706 INFO o.a.j.JMeter: Setting JMeter property: host=twilight-butterfly-76d6.cloudflare-rnd-eng.workers.dev
-2025-04-30 12:17:05,706 INFO o.a.j.JMeter: Setting JMeter property: port=443
-2025-04-30 12:17:05,706 INFO o.a.j.JMeter: Setting JMeter property: protocol=https
-2025-04-30 12:17:05,706 INFO o.a.j.JMeter: Setting JMeter property: path=/
-2025-04-30 12:17:05,706 INFO o.a.j.JMeter: Setting JMeter property: response_size=200
-2025-04-30 12:17:05,710 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
-2025-04-30 12:17:05,710 INFO o.a.j.JMeter: Version 5.6.3
-2025-04-30 12:17:05,710 INFO o.a.j.JMeter: java.version=21.0.5
-2025-04-30 12:17:05,710 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2025-04-30 12:17:05,710 INFO o.a.j.JMeter: os.name=Mac OS X
-2025-04-30 12:17:05,710 INFO o.a.j.JMeter: os.arch=aarch64
-2025-04-30 12:17:05,710 INFO o.a.j.JMeter: os.version=14.6.1
-2025-04-30 12:17:05,710 INFO o.a.j.JMeter: file.encoding=UTF-8
-2025-04-30 12:17:05,710 INFO o.a.j.JMeter: java.awt.headless=true
-2025-04-30 12:17:05,710 INFO o.a.j.JMeter: Max memory     =1073741824
-2025-04-30 12:17:05,710 INFO o.a.j.JMeter: Available Processors =8
-2025-04-30 12:17:05,715 INFO o.a.j.JMeter: Default Locale=English (EN)
-2025-04-30 12:17:05,715 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2025-04-30 12:17:05,715 INFO o.a.j.JMeter: JMeterHome=/opt/homebrew/Cellar/jmeter/5.6.3/libexec
-2025-04-30 12:17:05,715 INFO o.a.j.JMeter: user.dir  =/Users/thilan/projects/token/jmeter-runner
-2025-04-30 12:17:05,715 INFO o.a.j.JMeter: PWD       =/Users/thilan/projects/token/jmeter-runner
-2025-04-30 12:17:05,717 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: thilan.local FullName: localhost
-2025-04-30 12:17:05,724 INFO o.a.j.s.FileServer: Default base='/Users/thilan/projects/token/jmeter-runner'
-2025-04-30 12:17:05,725 INFO o.a.j.s.FileServer: Set new base='/Users/thilan/projects/token/jmeter-runner'
-2025-04-30 12:17:05,815 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2025-04-30 12:17:05,843 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2025-04-30 12:17:05,844 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2025-04-30 12:17:05,846 INFO o.a.j.s.SaveService: Loading file: apim-test.jmx
-2025-04-30 12:17:05,883 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-04-30 12:17:05,883 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-04-30 12:17:05,883 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-04-30 12:17:05,883 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-04-30 12:17:05,883 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2025-04-30 12:17:05,883 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2025-04-30 12:17:05,995 INFO o.a.j.JMeter: Creating summariser <summary>
-2025-04-30 12:17:06,005 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2025-04-30 12:17:06,005 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-04-30 12:17:06,005 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-04-30 12:17:06,007 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2025-04-30 12:17:06,007 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2025-04-30 12:17:06,036 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-04-30 12:17:06,085 INFO o.a.j.JMeter: Running test (1745995626085)
-2025-04-30 12:17:06,095 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Users
-2025-04-30 12:17:06,095 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Users.
-2025-04-30 12:17:06,095 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2025-04-30 12:17:06,095 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=10 delayedStart=false
-2025-04-30 12:17:06,125 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2025-04-30 12:17:06,125 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2025-04-30 12:17:06,161 INFO o.a.j.t.JMeterThread: Thread started: Users 1-1
-2025-04-30 12:17:06,162 INFO o.a.j.s.FileServer: Stored: tokens.csv
-2025-04-30 12:17:06,181 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = thilan.local
-2025-04-30 12:17:06,185 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2025-04-30 12:17:06,186 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2025-04-30 12:17:06,186 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
-2025-04-30 12:17:06,186 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2025-04-30 12:17:06,186 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2025-04-30 12:17:06,218 INFO o.a.j.s.FileServer: Stored: payload.json
-2025-04-30 12:17:06,271 INFO o.a.j.t.JMeterThread: Thread started: Users 1-2
-2025-04-30 12:17:06,328 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
-2025-04-30 12:17:06,332 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
-2025-04-30 12:17:06,333 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
-2025-04-30 12:17:06,362 INFO o.a.j.t.JMeterThread: Thread started: Users 1-3
-2025-04-30 12:17:06,432 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
-2025-04-30 12:17:06,433 INFO o.a.j.u.SSLManager: KeyStore created OK
-2025-04-30 12:17:06,434 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
-2025-04-30 12:17:06,470 INFO o.a.j.t.JMeterThread: Thread started: Users 1-4
-2025-04-30 12:17:06,563 INFO o.a.j.t.JMeterThread: Thread started: Users 1-5
-2025-04-30 12:17:06,664 INFO o.a.j.t.JMeterThread: Thread started: Users 1-6
-2025-04-30 12:17:06,757 INFO o.a.j.t.JMeterThread: Thread started: Users 1-7
-2025-04-30 12:17:06,861 INFO o.a.j.t.JMeterThread: Thread started: Users 1-8
-2025-04-30 12:17:06,959 INFO o.a.j.t.JMeterThread: Thread started: Users 1-9
-2025-04-30 12:17:07,062 INFO o.a.j.t.JMeterThread: Thread started: Users 1-10
-2025-04-30 12:17:07,166 INFO o.a.j.t.JMeterThread: Thread started: Users 1-11
-2025-04-30 12:17:07,258 INFO o.a.j.t.JMeterThread: Thread started: Users 1-12
-2025-04-30 12:17:07,365 INFO o.a.j.t.JMeterThread: Thread started: Users 1-13
-2025-04-30 12:17:07,461 INFO o.a.j.t.JMeterThread: Thread started: Users 1-14
-2025-04-30 12:17:07,563 INFO o.a.j.t.JMeterThread: Thread started: Users 1-15
-2025-04-30 12:17:07,658 INFO o.a.j.t.JMeterThread: Thread started: Users 1-16
-2025-04-30 12:17:07,766 INFO o.a.j.t.JMeterThread: Thread started: Users 1-17
-2025-04-30 12:17:07,863 INFO o.a.j.t.JMeterThread: Thread started: Users 1-18
-2025-04-30 12:17:07,958 INFO o.a.j.t.JMeterThread: Thread started: Users 1-19
-2025-04-30 12:17:08,058 INFO o.a.j.t.JMeterThread: Thread started: Users 1-20
-2025-04-30 12:17:08,163 INFO o.a.j.t.JMeterThread: Thread started: Users 1-21
-2025-04-30 12:17:08,256 INFO o.a.j.t.JMeterThread: Thread started: Users 1-22
-2025-04-30 12:17:08,359 INFO o.a.j.t.JMeterThread: Thread started: Users 1-23
-2025-04-30 12:17:08,463 INFO o.a.j.t.JMeterThread: Thread started: Users 1-24
-2025-04-30 12:17:08,552 INFO o.a.j.t.JMeterThread: Thread started: Users 1-25
-2025-04-30 12:17:08,656 INFO o.a.j.t.JMeterThread: Thread started: Users 1-26
-2025-04-30 12:17:08,755 INFO o.a.j.t.JMeterThread: Thread started: Users 1-27
-2025-04-30 12:17:08,851 INFO o.a.j.t.JMeterThread: Thread started: Users 1-28
-2025-04-30 12:17:08,956 INFO o.a.j.t.JMeterThread: Thread started: Users 1-29
-2025-04-30 12:17:09,060 INFO o.a.j.t.JMeterThread: Thread started: Users 1-30
-2025-04-30 12:17:09,161 INFO o.a.j.t.JMeterThread: Thread started: Users 1-31
-2025-04-30 12:17:09,261 INFO o.a.j.t.JMeterThread: Thread started: Users 1-32
-2025-04-30 12:17:09,355 INFO o.a.j.t.JMeterThread: Thread started: Users 1-33
-2025-04-30 12:17:09,460 INFO o.a.j.t.JMeterThread: Thread started: Users 1-34
-2025-04-30 12:17:09,553 INFO o.a.j.t.JMeterThread: Thread started: Users 1-35
-2025-04-30 12:17:09,653 INFO o.a.j.t.JMeterThread: Thread started: Users 1-36
-2025-04-30 12:17:09,756 INFO o.a.j.t.JMeterThread: Thread started: Users 1-37
-2025-04-30 12:17:09,851 INFO o.a.j.t.JMeterThread: Thread started: Users 1-38
-2025-04-30 12:17:09,952 INFO o.a.j.t.JMeterThread: Thread started: Users 1-39
-2025-04-30 12:17:10,054 INFO o.a.j.t.JMeterThread: Thread started: Users 1-40
-2025-04-30 12:17:10,153 INFO o.a.j.t.JMeterThread: Thread started: Users 1-41
-2025-04-30 12:17:10,252 INFO o.a.j.t.JMeterThread: Thread started: Users 1-42
-2025-04-30 12:17:10,349 INFO o.a.j.t.JMeterThread: Thread started: Users 1-43
-2025-04-30 12:17:10,459 INFO o.a.j.t.JMeterThread: Thread started: Users 1-44
-2025-04-30 12:17:10,558 INFO o.a.j.t.JMeterThread: Thread started: Users 1-45
-2025-04-30 12:17:10,657 INFO o.a.j.t.JMeterThread: Thread started: Users 1-46
-2025-04-30 12:17:10,753 INFO o.a.j.t.JMeterThread: Thread started: Users 1-47
-2025-04-30 12:17:10,853 INFO o.a.j.t.JMeterThread: Thread started: Users 1-48
-2025-04-30 12:17:10,958 INFO o.a.j.t.JMeterThread: Thread started: Users 1-49
-2025-04-30 12:17:11,058 INFO o.a.j.t.JMeterThread: Thread started: Users 1-50
-2025-04-30 12:17:11,150 INFO o.a.j.t.JMeterThread: Thread started: Users 1-51
-2025-04-30 12:17:11,253 INFO o.a.j.t.JMeterThread: Thread started: Users 1-52
-2025-04-30 12:17:11,351 INFO o.a.j.t.JMeterThread: Thread started: Users 1-53
-2025-04-30 12:17:11,455 INFO o.a.j.t.JMeterThread: Thread started: Users 1-54
-2025-04-30 12:17:11,551 INFO o.a.j.t.JMeterThread: Thread started: Users 1-55
-2025-04-30 12:17:11,645 INFO o.a.j.t.JMeterThread: Thread started: Users 1-56
-2025-04-30 12:17:11,756 INFO o.a.j.t.JMeterThread: Thread started: Users 1-57
-2025-04-30 12:17:11,855 INFO o.a.j.t.JMeterThread: Thread started: Users 1-58
-2025-04-30 12:17:11,947 INFO o.a.j.t.JMeterThread: Thread started: Users 1-59
-2025-04-30 12:17:12,047 INFO o.a.j.t.JMeterThread: Thread started: Users 1-60
-2025-04-30 12:17:12,146 INFO o.a.j.t.JMeterThread: Thread started: Users 1-61
-2025-04-30 12:17:12,255 INFO o.a.j.t.JMeterThread: Thread started: Users 1-62
-2025-04-30 12:17:12,354 INFO o.a.j.t.JMeterThread: Thread started: Users 1-63
-2025-04-30 12:17:12,445 INFO o.a.j.t.JMeterThread: Thread started: Users 1-64
-2025-04-30 12:17:12,549 INFO o.a.j.t.JMeterThread: Thread started: Users 1-65
-2025-04-30 12:17:12,648 INFO o.a.j.t.JMeterThread: Thread started: Users 1-66
-2025-04-30 12:17:12,751 INFO o.a.j.t.JMeterThread: Thread started: Users 1-67
-2025-04-30 12:17:12,847 INFO o.a.j.t.JMeterThread: Thread started: Users 1-68
-2025-04-30 12:17:12,953 INFO o.a.j.t.JMeterThread: Thread started: Users 1-69
-2025-04-30 12:17:13,051 INFO o.a.j.t.JMeterThread: Thread started: Users 1-70
-2025-04-30 12:17:13,142 INFO o.a.j.t.JMeterThread: Thread started: Users 1-71
-2025-04-30 12:17:13,247 INFO o.a.j.t.JMeterThread: Thread started: Users 1-72
-2025-04-30 12:17:13,352 INFO o.a.j.t.JMeterThread: Thread started: Users 1-73
-2025-04-30 12:17:13,445 INFO o.a.j.t.JMeterThread: Thread started: Users 1-74
-2025-04-30 12:17:13,548 INFO o.a.j.t.JMeterThread: Thread started: Users 1-75
-2025-04-30 12:17:13,645 INFO o.a.j.t.JMeterThread: Thread started: Users 1-76
-2025-04-30 12:17:13,748 INFO o.a.j.t.JMeterThread: Thread started: Users 1-77
-2025-04-30 12:17:13,843 INFO o.a.j.t.JMeterThread: Thread started: Users 1-78
-2025-04-30 12:17:13,950 INFO o.a.j.t.JMeterThread: Thread started: Users 1-79
-2025-04-30 12:17:14,050 INFO o.a.j.t.JMeterThread: Thread started: Users 1-80
-2025-04-30 12:17:14,149 INFO o.a.j.t.JMeterThread: Thread started: Users 1-81
-2025-04-30 12:17:14,245 INFO o.a.j.t.JMeterThread: Thread started: Users 1-82
-2025-04-30 12:17:14,346 INFO o.a.j.t.JMeterThread: Thread started: Users 1-83
-2025-04-30 12:17:14,443 INFO o.a.j.t.JMeterThread: Thread started: Users 1-84
-2025-04-30 12:17:14,549 INFO o.a.j.t.JMeterThread: Thread started: Users 1-85
-2025-04-30 12:17:14,649 INFO o.a.j.t.JMeterThread: Thread started: Users 1-86
-2025-04-30 12:17:14,747 INFO o.a.j.t.JMeterThread: Thread started: Users 1-87
-2025-04-30 12:17:14,840 INFO o.a.j.t.JMeterThread: Thread started: Users 1-88
-2025-04-30 12:17:14,943 INFO o.a.j.t.JMeterThread: Thread started: Users 1-89
-2025-04-30 12:17:15,047 INFO o.a.j.t.JMeterThread: Thread started: Users 1-90
-2025-04-30 12:17:15,143 INFO o.a.j.t.JMeterThread: Thread started: Users 1-91
-2025-04-30 12:17:15,242 INFO o.a.j.t.JMeterThread: Thread started: Users 1-92
-2025-04-30 12:17:15,343 INFO o.a.j.t.JMeterThread: Thread started: Users 1-93
-2025-04-30 12:17:15,443 INFO o.a.j.t.JMeterThread: Thread started: Users 1-94
-2025-04-30 12:17:15,546 INFO o.a.j.t.JMeterThread: Thread started: Users 1-95
-2025-04-30 12:17:15,646 INFO o.a.j.t.JMeterThread: Thread started: Users 1-96
-2025-04-30 12:17:15,739 INFO o.a.j.t.JMeterThread: Thread started: Users 1-97
-2025-04-30 12:17:15,847 INFO o.a.j.t.JMeterThread: Thread started: Users 1-98
-2025-04-30 12:17:15,936 INFO o.a.j.t.JMeterThread: Thread started: Users 1-99
-2025-04-30 12:17:16,042 INFO o.a.j.t.JMeterThread: Thread started: Users 1-100
-2025-04-30 12:17:30,026 INFO o.a.j.r.Summariser: summary +  20932 in 00:00:24 =  874.6/s Avg:    89 Min:    46 Max:  1101 Err: 20932 (100.00%) Active: 100 Started: 100 Finished: 0
-2025-04-30 12:18:00,017 INFO o.a.j.r.Summariser: summary +  33096 in 00:00:30 = 1103.3/s Avg:    90 Min:    47 Max:   617 Err: 33096 (100.00%) Active: 100 Started: 100 Finished: 0
-2025-04-30 12:18:00,018 INFO o.a.j.r.Summariser: summary =  54028 in 00:00:54 = 1001.8/s Avg:    90 Min:    46 Max:  1101 Err: 54028 (100.00%)
-2025-04-30 12:18:30,001 INFO o.a.j.r.Summariser: summary +  32403 in 00:00:30 = 1080.7/s Avg:    92 Min:    47 Max:   890 Err: 32403 (100.00%) Active: 100 Started: 100 Finished: 0
-2025-04-30 12:18:30,002 INFO o.a.j.r.Summariser: summary =  86431 in 00:01:24 = 1030.0/s Avg:    90 Min:    46 Max:  1101 Err: 86431 (100.00%)
-2025-04-30 12:18:46,101 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-8
-2025-04-30 12:18:46,101 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-8
-2025-04-30 12:18:46,103 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-1
-2025-04-30 12:18:46,104 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-1
-2025-04-30 12:18:46,104 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-19
-2025-04-30 12:18:46,104 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-19
-2025-04-30 12:18:46,105 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-24
-2025-04-30 12:18:46,105 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-24
-2025-04-30 12:18:46,106 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-16
-2025-04-30 12:18:46,106 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-16
-2025-04-30 12:18:46,110 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-18
-2025-04-30 12:18:46,110 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-17
-2025-04-30 12:18:46,110 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-17
-2025-04-30 12:18:46,110 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-18
-2025-04-30 12:18:46,110 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-45
-2025-04-30 12:18:46,110 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-14
-2025-04-30 12:18:46,111 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-45
-2025-04-30 12:18:46,112 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-14
-2025-04-30 12:18:46,113 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-11
-2025-04-30 12:18:46,113 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-11
-2025-04-30 12:18:46,113 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-38
-2025-04-30 12:18:46,114 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-39
-2025-04-30 12:18:46,113 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-25
-2025-04-30 12:18:46,114 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-28
-2025-04-30 12:18:46,113 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-6
-2025-04-30 12:18:46,114 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-38
-2025-04-30 12:18:46,114 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-39
-2025-04-30 12:18:46,114 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-6
-2025-04-30 12:18:46,114 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-25
-2025-04-30 12:18:46,114 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-28
-2025-04-30 12:18:46,116 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-30
-2025-04-30 12:18:46,116 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-30
-2025-04-30 12:18:46,116 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-5
-2025-04-30 12:18:46,116 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-40
-2025-04-30 12:18:46,116 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-33
-2025-04-30 12:18:46,116 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-5
-2025-04-30 12:18:46,116 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-9
-2025-04-30 12:18:46,116 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-33
-2025-04-30 12:18:46,116 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-9
-2025-04-30 12:18:46,117 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-40
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-15
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-98
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-34
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-98
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-60
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-34
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-60
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-2
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-86
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-44
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-89
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-44
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-4
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-12
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-96
-2025-04-30 12:18:46,125 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-4
-2025-04-30 12:18:46,125 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-12
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-91
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-89
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-2
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-97
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-46
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-7
-2025-04-30 12:18:46,125 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-97
-2025-04-30 12:18:46,124 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-15
-2025-04-30 12:18:46,125 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-7
-2025-04-30 12:18:46,125 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-86
-2025-04-30 12:18:46,125 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-91
-2025-04-30 12:18:46,125 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-46
-2025-04-30 12:18:46,125 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-96
-2025-04-30 12:18:46,127 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-94
-2025-04-30 12:18:46,127 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-59
-2025-04-30 12:18:46,127 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-94
-2025-04-30 12:18:46,127 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-59
-2025-04-30 12:18:46,127 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-41
-2025-04-30 12:18:46,127 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-63
-2025-04-30 12:18:46,127 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-58
-2025-04-30 12:18:46,127 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-100
-2025-04-30 12:18:46,128 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-63
-2025-04-30 12:18:46,128 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-41
-2025-04-30 12:18:46,128 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-23
-2025-04-30 12:18:46,128 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-100
-2025-04-30 12:18:46,128 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-23
-2025-04-30 12:18:46,128 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-58
-2025-04-30 12:18:46,130 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-53
-2025-04-30 12:18:46,130 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-37
-2025-04-30 12:18:46,130 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-53
-2025-04-30 12:18:46,130 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-26
-2025-04-30 12:18:46,130 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-82
-2025-04-30 12:18:46,130 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-69
-2025-04-30 12:18:46,130 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-37
-2025-04-30 12:18:46,131 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-26
-2025-04-30 12:18:46,131 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-69
-2025-04-30 12:18:46,131 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-82
-2025-04-30 12:18:46,133 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-21
-2025-04-30 12:18:46,132 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-55
-2025-04-30 12:18:46,133 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-48
-2025-04-30 12:18:46,133 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-62
-2025-04-30 12:18:46,133 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-66
-2025-04-30 12:18:46,133 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-67
-2025-04-30 12:18:46,133 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-21
-2025-04-30 12:18:46,133 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-55
-2025-04-30 12:18:46,133 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-62
-2025-04-30 12:18:46,133 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-48
-2025-04-30 12:18:46,133 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-67
-2025-04-30 12:18:46,133 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-66
-2025-04-30 12:18:46,138 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-10
-2025-04-30 12:18:46,138 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-50
-2025-04-30 12:18:46,138 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-10
-2025-04-30 12:18:46,138 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-50
-2025-04-30 12:18:46,139 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-36
-2025-04-30 12:18:46,139 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-36
-2025-04-30 12:18:46,142 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-99
-2025-04-30 12:18:46,142 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-52
-2025-04-30 12:18:46,142 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-85
-2025-04-30 12:18:46,142 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-99
-2025-04-30 12:18:46,142 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-52
-2025-04-30 12:18:46,142 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-85
-2025-04-30 12:18:46,146 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-70
-2025-04-30 12:18:46,146 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-27
-2025-04-30 12:18:46,146 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-70
-2025-04-30 12:18:46,146 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-27
-2025-04-30 12:18:46,146 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-3
-2025-04-30 12:18:46,146 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-49
-2025-04-30 12:18:46,146 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-49
-2025-04-30 12:18:46,146 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-88
-2025-04-30 12:18:46,146 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-3
-2025-04-30 12:18:46,146 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-88
-2025-04-30 12:18:46,146 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-13
-2025-04-30 12:18:46,146 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-68
-2025-04-30 12:18:46,146 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-13
-2025-04-30 12:18:46,146 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-68
-2025-04-30 12:18:46,148 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-54
-2025-04-30 12:18:46,148 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-54
-2025-04-30 12:18:46,150 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-93
-2025-04-30 12:18:46,150 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-93
-2025-04-30 12:18:46,153 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-61
-2025-04-30 12:18:46,153 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-47
-2025-04-30 12:18:46,153 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-77
-2025-04-30 12:18:46,153 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-61
-2025-04-30 12:18:46,153 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-47
-2025-04-30 12:18:46,153 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-56
-2025-04-30 12:18:46,153 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-56
-2025-04-30 12:18:46,153 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-73
-2025-04-30 12:18:46,153 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-71
-2025-04-30 12:18:46,153 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-77
-2025-04-30 12:18:46,153 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-73
-2025-04-30 12:18:46,153 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-71
-2025-04-30 12:18:46,155 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-51
-2025-04-30 12:18:46,155 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-42
-2025-04-30 12:18:46,155 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-75
-2025-04-30 12:18:46,155 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-51
-2025-04-30 12:18:46,155 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-42
-2025-04-30 12:18:46,155 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-75
-2025-04-30 12:18:46,158 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-35
-2025-04-30 12:18:46,158 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-29
-2025-04-30 12:18:46,158 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-35
-2025-04-30 12:18:46,158 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-29
-2025-04-30 12:18:46,161 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-20
-2025-04-30 12:18:46,161 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-22
-2025-04-30 12:18:46,161 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-20
-2025-04-30 12:18:46,161 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-31
-2025-04-30 12:18:46,161 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-22
-2025-04-30 12:18:46,161 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-31
-2025-04-30 12:18:46,161 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-64
-2025-04-30 12:18:46,161 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-64
-2025-04-30 12:18:46,164 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-81
-2025-04-30 12:18:46,164 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-65
-2025-04-30 12:18:46,164 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-79
-2025-04-30 12:18:46,164 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-65
-2025-04-30 12:18:46,164 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-79
-2025-04-30 12:18:46,164 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-81
-2025-04-30 12:18:46,167 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-74
-2025-04-30 12:18:46,167 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-32
-2025-04-30 12:18:46,167 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-74
-2025-04-30 12:18:46,167 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-78
-2025-04-30 12:18:46,167 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-32
-2025-04-30 12:18:46,167 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-78
-2025-04-30 12:18:46,170 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-72
-2025-04-30 12:18:46,170 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-76
-2025-04-30 12:18:46,170 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-90
-2025-04-30 12:18:46,170 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-76
-2025-04-30 12:18:46,170 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-72
-2025-04-30 12:18:46,170 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-90
-2025-04-30 12:18:46,170 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-57
-2025-04-30 12:18:46,170 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-57
-2025-04-30 12:18:46,170 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-95
-2025-04-30 12:18:46,170 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-95
-2025-04-30 12:18:46,173 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-80
-2025-04-30 12:18:46,173 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-80
-2025-04-30 12:18:46,173 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-43
-2025-04-30 12:18:46,173 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-43
-2025-04-30 12:18:46,173 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-87
-2025-04-30 12:18:46,173 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-87
-2025-04-30 12:18:46,177 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-83
-2025-04-30 12:18:46,177 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-84
-2025-04-30 12:18:46,177 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-92
-2025-04-30 12:18:46,177 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-83
-2025-04-30 12:18:46,177 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-92
-2025-04-30 12:18:46,177 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-84
-2025-04-30 12:18:46,177 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2025-04-30 12:18:46,177 INFO o.a.j.s.FileServer: Close: tokens.csv
-2025-04-30 12:18:46,178 INFO o.a.j.r.Summariser: summary +  17642 in 00:00:16 = 1090.5/s Avg:    91 Min:    47 Max:   487 Err: 17642 (100.00%) Active: 0 Started: 100 Finished: 100
-2025-04-30 12:18:46,178 INFO o.a.j.r.Summariser: summary = 104073 in 00:01:40 = 1039.8/s Avg:    91 Min:    46 Max:  1101 Err: 104073 (100.00%)
+2025-05-07 11:21:51,298 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-05-07 11:21:51,310 INFO o.a.j.JMeter: Loading user properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/user.properties
+2025-05-07 11:21:51,310 INFO o.a.j.JMeter: Loading system properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/system.properties
+2025-05-07 11:21:51,311 INFO o.a.j.JMeter: Setting JMeter property: users=10
+2025-05-07 11:21:51,311 INFO o.a.j.JMeter: Setting JMeter property: rampUpPeriod=10
+2025-05-07 11:21:51,311 INFO o.a.j.JMeter: Setting JMeter property: duration=100
+2025-05-07 11:21:51,311 INFO o.a.j.JMeter: Setting JMeter property: tokens=tokens.csv
+2025-05-07 11:21:51,311 INFO o.a.j.JMeter: Setting JMeter property: payload=payload.json
+2025-05-07 11:21:51,311 INFO o.a.j.JMeter: Setting JMeter property: host=twilight-butterfly-76d6.cloudflare-rnd-eng.workers.dev
+2025-05-07 11:21:51,311 INFO o.a.j.JMeter: Setting JMeter property: port=443
+2025-05-07 11:21:51,311 INFO o.a.j.JMeter: Setting JMeter property: protocol=https
+2025-05-07 11:21:51,311 INFO o.a.j.JMeter: Setting JMeter property: path=/
+2025-05-07 11:21:51,311 INFO o.a.j.JMeter: Setting JMeter property: response_size=200
+2025-05-07 11:21:51,313 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-05-07 11:21:51,313 INFO o.a.j.JMeter: Version 5.6.3
+2025-05-07 11:21:51,314 INFO o.a.j.JMeter: java.version=21.0.5
+2025-05-07 11:21:51,314 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2025-05-07 11:21:51,314 INFO o.a.j.JMeter: os.name=Mac OS X
+2025-05-07 11:21:51,314 INFO o.a.j.JMeter: os.arch=aarch64
+2025-05-07 11:21:51,314 INFO o.a.j.JMeter: os.version=14.6.1
+2025-05-07 11:21:51,314 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-05-07 11:21:51,314 INFO o.a.j.JMeter: java.awt.headless=true
+2025-05-07 11:21:51,314 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-05-07 11:21:51,314 INFO o.a.j.JMeter: Available Processors =8
+2025-05-07 11:21:51,319 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-05-07 11:21:51,319 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-05-07 11:21:51,319 INFO o.a.j.JMeter: JMeterHome=/opt/homebrew/Cellar/jmeter/5.6.3/libexec
+2025-05-07 11:21:51,319 INFO o.a.j.JMeter: user.dir  =/Users/thilan/projects/token/jmeter-runner
+2025-05-07 11:21:51,319 INFO o.a.j.JMeter: PWD       =/Users/thilan/projects/token/jmeter-runner
+2025-05-07 11:21:51,320 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: thilan.local FullName: localhost
+2025-05-07 11:21:51,330 INFO o.a.j.s.FileServer: Default base='/Users/thilan/projects/token/jmeter-runner'
+2025-05-07 11:21:51,331 INFO o.a.j.s.FileServer: Set new base='/Users/thilan/projects/token/jmeter-runner'
+2025-05-07 11:21:51,422 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-05-07 11:21:51,446 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-05-07 11:21:51,447 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-05-07 11:21:51,449 INFO o.a.j.s.SaveService: Loading file: apim-test.jmx
+2025-05-07 11:21:51,486 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-05-07 11:21:51,486 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-05-07 11:21:51,486 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-05-07 11:21:51,486 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-05-07 11:21:51,486 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-05-07 11:21:51,486 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-05-07 11:21:51,608 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-05-07 11:21:51,618 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-05-07 11:21:51,619 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-05-07 11:21:51,619 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-05-07 11:21:51,620 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-05-07 11:21:51,620 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-05-07 11:21:51,647 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-05-07 11:21:51,696 INFO o.a.j.JMeter: Running test (1746597111696)
+2025-05-07 11:21:51,706 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Users
+2025-05-07 11:21:51,706 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Users.
+2025-05-07 11:21:51,706 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-05-07 11:21:51,707 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=10 delayedStart=false
+2025-05-07 11:21:51,712 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-05-07 11:21:51,712 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-05-07 11:21:51,734 INFO o.a.j.t.JMeterThread: Thread started: Users 1-1
+2025-05-07 11:21:51,735 INFO o.a.j.s.FileServer: Stored: tokens.csv
+2025-05-07 11:21:51,748 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = thilan.local
+2025-05-07 11:21:51,750 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-05-07 11:21:51,751 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-05-07 11:21:51,751 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-05-07 11:21:51,751 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-05-07 11:21:51,751 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-05-07 11:21:51,782 INFO o.a.j.s.FileServer: Stored: payload.json
+2025-05-07 11:21:51,856 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2025-05-07 11:21:51,860 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2025-05-07 11:21:51,860 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2025-05-07 11:21:51,945 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2025-05-07 11:21:51,946 INFO o.a.j.u.SSLManager: KeyStore created OK
+2025-05-07 11:21:51,947 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2025-05-07 11:21:52,737 INFO o.a.j.t.JMeterThread: Thread started: Users 1-2
+2025-05-07 11:21:53,734 INFO o.a.j.t.JMeterThread: Thread started: Users 1-3
+2025-05-07 11:21:54,734 INFO o.a.j.t.JMeterThread: Thread started: Users 1-4
+2025-05-07 11:21:55,734 INFO o.a.j.t.JMeterThread: Thread started: Users 1-5
+2025-05-07 11:21:56,734 INFO o.a.j.t.JMeterThread: Thread started: Users 1-6
+2025-05-07 11:21:57,735 INFO o.a.j.t.JMeterThread: Thread started: Users 1-7
+2025-05-07 11:21:58,731 INFO o.a.j.t.JMeterThread: Thread started: Users 1-8
+2025-05-07 11:21:59,735 INFO o.a.j.t.JMeterThread: Thread started: Users 1-9
+2025-05-07 11:22:00,002 INFO o.a.j.r.Summariser: summary +    554 in 00:00:08 =   66.7/s Avg:    67 Min:    49 Max:   961 Err:   554 (100.00%) Active: 9 Started: 9 Finished: 0
+2025-05-07 11:22:00,736 INFO o.a.j.t.JMeterThread: Thread started: Users 1-10
+2025-05-07 11:22:30,007 INFO o.a.j.r.Summariser: summary +   4975 in 00:00:30 =  165.8/s Avg:    59 Min:    47 Max:   817 Err:  4975 (100.00%) Active: 10 Started: 10 Finished: 0
+2025-05-07 11:22:30,007 INFO o.a.j.r.Summariser: summary =   5529 in 00:00:38 =  144.3/s Avg:    60 Min:    47 Max:   961 Err:  5529 (100.00%)
+2025-05-07 11:23:00,001 INFO o.a.j.r.Summariser: summary +   4861 in 00:00:30 =  162.1/s Avg:    61 Min:    47 Max:   981 Err:  4861 (100.00%) Active: 10 Started: 10 Finished: 0
+2025-05-07 11:23:00,003 INFO o.a.j.r.Summariser: summary =  10390 in 00:01:08 =  152.1/s Avg:    60 Min:    47 Max:   981 Err: 10390 (100.00%)
+2025-05-07 11:23:30,003 INFO o.a.j.r.Summariser: summary +   5108 in 00:00:30 =  170.3/s Avg:    58 Min:    47 Max:   754 Err:  5108 (100.00%) Active: 10 Started: 10 Finished: 0
+2025-05-07 11:23:30,004 INFO o.a.j.r.Summariser: summary =  15498 in 00:01:38 =  157.7/s Avg:    60 Min:    47 Max:   981 Err: 15498 (100.00%)
+2025-05-07 11:23:31,725 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-9
+2025-05-07 11:23:31,726 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-10
+2025-05-07 11:23:31,726 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-9
+2025-05-07 11:23:31,726 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-10
+2025-05-07 11:23:31,727 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-8
+2025-05-07 11:23:31,727 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-8
+2025-05-07 11:23:31,727 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-7
+2025-05-07 11:23:31,728 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-7
+2025-05-07 11:23:31,733 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-6
+2025-05-07 11:23:31,733 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-3
+2025-05-07 11:23:31,734 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-6
+2025-05-07 11:23:31,734 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-3
+2025-05-07 11:23:31,736 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-5
+2025-05-07 11:23:31,737 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-5
+2025-05-07 11:23:31,742 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-4
+2025-05-07 11:23:31,742 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-4
+2025-05-07 11:23:31,747 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-2
+2025-05-07 11:23:31,748 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-2
+2025-05-07 11:23:31,755 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Users 1-1
+2025-05-07 11:23:31,755 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-1
+2025-05-07 11:23:31,756 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-05-07 11:23:31,756 INFO o.a.j.s.FileServer: Close: tokens.csv
+2025-05-07 11:23:31,758 INFO o.a.j.r.Summariser: summary +    303 in 00:00:02 =  172.6/s Avg:    57 Min:    48 Max:    85 Err:   303 (100.00%) Active: 0 Started: 10 Finished: 10
+2025-05-07 11:23:31,758 INFO o.a.j.r.Summariser: summary =  15801 in 00:01:40 =  157.9/s Avg:    60 Min:    47 Max:   981 Err: 15801 (100.00%)
